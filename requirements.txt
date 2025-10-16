@@ -8,9 +8,10 @@ rq
 
 # Embeddings & LLM
 sentence-transformers
-transformers
-accelerate
 google-genai
+
+# PostgreSQL client
+supabase
 
 # Vector database client
 qdrant-client
