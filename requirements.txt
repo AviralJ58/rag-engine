@@ -19,6 +19,7 @@ qdrant-client
 # Data handling
 pydantic
 requests
+bs4
 
 # Environment variables
 python-dotenv
