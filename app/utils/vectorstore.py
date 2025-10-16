@@ -1,17 +1,15 @@
-from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct
-
-# Initialize Qdrant client
-qdrant_client = QdrantClient(path="qdrant_storage")  # local embedded
+from app.config import qdrant_client
 
 def init_collection(name, vector_size):
     """Create collection if not exists."""
     try:
         qdrant_client.recreate_collection(
             collection_name=name,
-            vectors={"size": vector_size, "distance": "Cosine"},
+            vectors_config={"size": vector_size, "distance": "Cosine"},
         )
-    except Exception:
+    except Exception as e:
+        print("Exception in creating collection: ",e)
         pass
 
 def upsert_vectors(collection_name, vectors, payloads, ids):
