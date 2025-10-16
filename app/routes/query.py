@@ -44,7 +44,7 @@ async def query_endpoint(payload: QueryRequest):
         search_result = qdrant_client.search(
             collection_name=COLLECTION_NAME,
             query_vector=query_vector,
-            top=TOP_K,
+            # top=TOP_K,
             with_payload=True
         )
 
@@ -64,7 +64,18 @@ async def query_endpoint(payload: QueryRequest):
         context = "\n\n".join(context_texts)
 
         # 4️⃣ Create prompt for LLM
-        prompt = f"Answer the question based on the following context:\n{context}\n\nQuestion: {user_query}"
+        prompt = f"""
+            You are an assistant that answers questions using the provided context.
+            If the context does not contain enough information, answer based on your general knowledge.
+            Context:
+            {context}
+
+            Question: {user_query}
+
+            Answer:
+            """
+
+        print(prompt)
 
         # 5️⃣ Call Gemini LLM
         answer = generate_response([{"role": "user", "content": prompt}])
