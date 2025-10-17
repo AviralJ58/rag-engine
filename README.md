@@ -18,13 +18,13 @@ The system follows a **distributed worker-based architecture**:
 
 ### 🧩 Final Architecture Diagram
 
-![System Architecture](./images/architecture.png)
+![System Architecture](./images/Architecture.png)
 
 ---
 
 ## 🔁 Sequence Diagram (Pipeline Flow)
 
-![Sequence Diagram](./images/sequence.png)
+![Sequence Diagram](./images/Sequence.png)
 ---
 
 ## ⚙️ Technology Stack & Justifications
