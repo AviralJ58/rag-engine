@@ -1,0 +1,702 @@
+[
+  {
+    "index": 2,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"f22a4f97-d989-4105-bed8-e6c659233e1b\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 0,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 3,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"ce1d19b7-038e-49e5-b737-eb9cccf7400a\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 4,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"ac2fb179-3a89-48ef-b0da-540afb97f18a\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 5,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"b03d10ef-b14c-4397-a821-1a4a2db2d09d\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 1,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"67997598-aefa-4f42-9e5e-78468b27ca9a\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 8,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 7,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"4519c24e-d4bd-476c-97dd-9c16780c27c7\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 12,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 15,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"9103c3aa-202d-4de6-a06a-ac37ddfae24f\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 6,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 9,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"a2e1c381-9d9f-479d-b04f-b0a90dc75c80\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 17,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 16,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 13,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 11,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already in progress\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 18,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 14,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"9903bf15-0363-4d27-934c-9b4a63b09b4c\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 19,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already in progress\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 10,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 20,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 24,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"Ingestion job queued\",\"job_id\":\"e4b76bbd-46b1-4677-aa3b-8a551f07a445\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 21,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL ingestion already queued\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 22,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 23,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 33,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 28,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 29,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 30,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 36,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 32,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 37,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 38,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 27,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 39,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 26,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 31,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 34,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 35,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 25,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 43,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 42,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 41,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 40,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 56,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 49,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 55,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 54,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 48,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 47,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 58,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 51,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 57,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 45,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 53,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 46,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 52,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 44,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 50,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 62,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 61,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 60,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 59,
+    "url": "https://towardsdatascience.com/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"3b06c7f3-9960-49ab-88a8-e031ce1d7fd2\"}"
+  },
+  {
+    "index": 75,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 76,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 77,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 65,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 64,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 63,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 74,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 66,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 67,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 68,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 69,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 70,
+    "url": "https://www.toyota.com/grsupra/?msockid=0381bfc1b0f8640811e6a946b14465e4",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"bd6dbd70-5c0a-4cfc-848f-712b02e7e352\"}"
+  },
+  {
+    "index": 71,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 72,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 73,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 78,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 81,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 80,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 79,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 85,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 84,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 83,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 86,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 87,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 88,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 89,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 90,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 91,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 92,
+    "url": "https://supabase.com/docs/guides",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"b734bddc-3b67-4e5c-82a0-93a8b7bcec65\"}"
+  },
+  {
+    "index": 93,
+    "url": "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"ebe888ae-ecfb-4931-a86b-3e4396176af1\"}"
+  },
+  {
+    "index": 94,
+    "url": "https://fastapi.tiangolo.com/tutorial/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"8a07820a-639d-4980-8551-76ba5e396316\"}"
+  },
+  {
+    "index": 95,
+    "url": "https://redis.io/docs/latest/develop/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"fb337824-22ba-4545-b597-2fb2b19f748e\"}"
+  },
+  {
+    "index": 96,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  },
+  {
+    "index": 82,
+    "url": "https://www.india.com/business/today-gold-silver-rate-october-17-check-18-22-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-8136428/",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"397f59bf-44ac-41e9-9916-e25d5f51ec78\"}"
+  },
+  {
+    "index": 97,
+    "url": "https://cloud.google.com/architecture",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"edef0526-84f6-4429-ba49-217c95d3f534\"}"
+  },
+  {
+    "index": 98,
+    "url": "https://huggingface.co/blog",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"04da463f-0337-4ece-b659-c56039c65f9a\"}"
+  },
+  {
+    "index": 99,
+    "url": "https://developers.google.com/machine-learning",
+    "status_code": 202,
+    "ok": true,
+    "response": "{\"message\":\"URL already ingested\",\"doc_id\":\"567dd8db-7527-4e1d-adf6-60b972facd3b\"}"
+  }
+]
