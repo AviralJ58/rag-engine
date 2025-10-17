@@ -19,7 +19,7 @@ async def ingest_url(payload: IngestURLRequest):
 
     # Check if URL is already ingested
     try:
-        existing = supabase.table("documents").select("doc_id").eq("url", str(payload.url)).execute()
+        existing = supabase.table("documents").select("doc_id", "status").eq("url", str(payload.url)).execute()
         if existing.data and len(existing.data) > 0:
             doc = existing.data[0]
             if doc["status"] == "completed":
