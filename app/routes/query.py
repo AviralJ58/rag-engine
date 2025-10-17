@@ -44,8 +44,9 @@ async def query_endpoint(payload: QueryRequest):
         search_result = qdrant_client.search(
             collection_name=COLLECTION_NAME,
             query_vector=query_vector,
-            # top=TOP_K,
-            with_payload=True
+            limit=10,
+            with_payload=True,
+            score_threshold=0.35  # discard weakly related results
         )
 
         if not search_result:
@@ -61,7 +62,7 @@ async def query_endpoint(payload: QueryRequest):
             context_texts.append(snippet)
             sources.append(url)
 
-        context = "\n\n".join(context_texts)
+        context = "\n\n".join(context_texts[:3]) # use top 3 chunks 
 
         # 4️⃣ Create prompt for LLM
         prompt = f"""
