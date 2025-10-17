@@ -182,3 +182,8 @@ This will trigger 10 simultaneous ingestion jobs against `/ingest-url`.
 - Qdrant Cloud handles concurrent read/write loads.
 - FastAPI is fully async, capable of handling concurrent queries.
 - Supabase maintains ingestion/job consistency.
+
+## ▶️ Demo
+See the pipline in action!
+
+https://drive.google.com/file/d/1ydQwsPfh6i1cXSDJ_OeS684h2bDJd8v3/view?usp=sharing
