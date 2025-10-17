@@ -6,7 +6,7 @@ from time import time
 
 API_URL = "http://127.0.0.1:8000/ingest-url"  # change if hosted remotely
 
-# 10 genuine, crawlable tech URLs
+# 10 genuine, crawlable URLs
 BASE_URLS = [
     "https://developers.google.com/machine-learning",
     "https://www.andersdx.com/intel-baytrail-industrial-pc/?tab=specifications",
