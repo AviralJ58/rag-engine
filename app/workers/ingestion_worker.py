@@ -39,14 +39,13 @@ def process_job(job_payload):
         # 4️⃣ Upsert into Qdrant
         vector_ids = [str(uuid.uuid4()) for _ in chunks]
         payloads = [
-            {"chunk_id": vid, "doc_id": doc_id, "url": url, "text_snippet": chunk[:200]}
+            {"chunk_id": vid, "doc_id": doc_id, "url": url, "text_snippet": chunk}
             for vid, chunk in zip(vector_ids, chunks)
         ]
         upsert_vectors(COLLECTION_NAME, embeddings, payloads, vector_ids)
 
         # 5️⃣ Update Supabase tables
         supabase.table("documents").update({"status": "completed"}).eq("doc_id", doc_id).execute()
-        supabase.table("ingestion_jobs").update({"status": "completed"}).eq("job_id", job_id).execute()
 
         print(f"[Worker] Job {job_id} completed successfully")
 
