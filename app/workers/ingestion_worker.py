@@ -24,19 +24,27 @@ def process_job(job_payload):
     print(f"[Worker] Processing job {job_id} for URL: {url}")
 
     try:
-        # 1️⃣ Fetch & extract text
+        # Atomic update: set job status to 'processing'
+        current = supabase.table("documents").select("status").eq("doc_id", doc_id).execute()
+        if not current.data or current.data[0]["status"] in ["processing", "completed"]:
+            print(f"[Worker] Job {job_id} skipped: document already {current.data[0]['status'] if current.data else 'not found'}")
+            return
+        
+        supabase.table("documents").update({"status": "processing"}).eq("doc_id", doc_id).execute()
+
+        # Fetch & extract text
         html = fetch_url(url)
         text = extract_main_text(html)
 
-        # 2️⃣ Chunk text
+        # Chunk text
         chunks = chunk_text(text)
         if not chunks:
             raise ValueError("No chunks extracted from URL")
 
-        # 3️⃣ Generate embeddings
+        # Generate embeddings
         embeddings = embed_texts(chunks)
 
-        # 4️⃣ Upsert into Qdrant
+        # Upsert into Qdrant
         vector_ids = [str(uuid.uuid4()) for _ in chunks]
         payloads = [
             {"chunk_id": vid, "doc_id": doc_id, "url": url, "text_snippet": chunk}
@@ -44,7 +52,7 @@ def process_job(job_payload):
         ]
         upsert_vectors(COLLECTION_NAME, embeddings, payloads, vector_ids)
 
-        # 5️⃣ Update Supabase tables
+        # Update Supabase tables
         supabase.table("documents").update({"status": "completed"}).eq("doc_id", doc_id).execute()
 
         print(f"[Worker] Job {job_id} completed successfully")
@@ -52,8 +60,6 @@ def process_job(job_payload):
     except Exception as e:
         print(f"[Worker] Job {job_id} failed: {e}")
         supabase.table("documents").update({"status": "failed"}).eq("doc_id", doc_id).execute()
-        supabase.table("ingestion_jobs").update({"status": "failed"}).eq("job_id", job_id).execute()
-
 
 def worker_loop():
     print("[Worker] Started ingestion worker...")
